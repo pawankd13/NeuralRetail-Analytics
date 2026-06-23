@@ -1,0 +1,211 @@
+# Neural Retail Project Report
+
+## 1.Project Overview
+
+The objective of this project is to analyze retail transaction data and generate actionable business insights using Python, data analytics, machine learning, and interactive dashboards.
+
+The project focuses on:
+
+* Data Cleaning
+* Exploratory Data Analysis (EDA)
+* Customer Segmentation (RFM Analysis)
+* Sales Forecasting
+* Churn Analysis
+* Inventory Analysis
+* Streamlit Dashboard Development
+
+Tools Used:
+
+* Python
+* Pandas
+* NumPy
+* Matplotlib
+* Scikit-Learn
+* Streamlit
+
+---
+
+## 2.Data Cleaning
+
+The raw retail dataset contained missing values, duplicate records, invalid prices, and negative quantities.
+
+Cleaning steps performed:
+
+* Removed duplicate transactions
+* Removed records with negative quantities
+* Removed records with invalid prices
+* Handled missing values
+* Created Revenue column
+
+Final cleaned dataset size:
+
+* Rows: 400,916
+* Columns: 8
+
+The cleaned dataset was saved as:
+
+cleaned_retail.csv
+
+---
+
+## 3.Exploratory Data Analysis (EDA)
+
+Key Business KPIs:
+
+* Total Revenue: $8,798,233.74
+* Total Orders: 19,213
+* Total Customers: 4,312
+* Average Order Value: $457.93
+
+Major analyses performed:
+
+* Monthly Revenue Trend
+* Country-wise Revenue Analysis
+* Top Selling Products
+* Top Revenue Generating Customers
+
+Key Findings:
+
+* Revenue showed strong growth toward the end of the year.
+* United Kingdom contributed the majority of sales revenue.
+* A small percentage of customers generated a large share of total revenue.
+* Certain products consistently generated higher sales volumes.
+
+---
+
+## 4.Customer Segmentation (RFM Analysis)
+
+RFM analysis was used to classify customers based on:
+
+* Recency
+* Frequency
+* Monetary Value
+
+Customer Segments:
+
+* Champions
+* Loyal Customers
+* Potential Loyalists
+* At Risk Customers
+
+Segment Distribution:
+
+* At Risk: 2,122
+* Loyal Customers: 1,014
+* Potential Loyalists: 719
+* Champions: 457
+
+Insights:
+
+* Champions contributed the highest revenue.
+* At Risk customers represented the largest customer segment.
+* Retention campaigns can be targeted toward At Risk customers.
+
+---
+
+## 5.Sales Forecasting
+
+A forecasting model was developed using monthly sales data.
+
+Approach:
+
+* Aggregated monthly revenue
+* Created time index feature
+* Trained Linear Regression model
+* Predicted future revenue
+
+Forecast Results:
+
+Month+1: 967,241.66
+
+Month+2: 1,007,232.98
+
+Month+3: 1,047,224.29
+
+Insights:
+
+* Sales are expected to continue increasing.
+* Positive revenue trend indicates business growth potential.
+
+---
+
+## 6.Customer Churn Analysis
+
+Customer churn was identified using recency-based rules.
+
+Method:
+
+* Customers inactive for more than 90 days classified as churned.
+
+Insights:
+
+* Churn risk customers were successfully identified.
+* Businesses can use targeted marketing campaigns to improve retention.
+* Early intervention strategies can reduce future churn rates.
+
+---
+
+## 7.Inventory Analysis
+
+Inventory demand was analyzed using product sales quantities.
+
+Risk Categories:
+
+* High Demand
+* Normal Demand
+
+Results:
+
+* High Demand Products: 1,111
+* Normal Demand Products: 3,333
+
+Insights:
+
+* High-demand products require inventory prioritization.
+* Proper stock planning can reduce stockout risk.
+
+---
+
+## 8.Dashboard Development
+
+Interactive dashboards were developed using Streamlit.
+
+Dashboards Created:
+
+* Sales Dashboard
+* Customer Dashboard
+* Forecast Dashboard
+* Inventory Dashboard
+
+Features:
+
+* KPI Cards
+* Interactive Tables
+* Revenue Visualizations
+* Forecast Visualizations
+* Customer Insights
+* Inventory Monitoring
+
+---
+
+## 9.Business Recommendations
+
+1. Focus retention campaigns on At Risk customers.
+
+2. Increase stock levels for High Demand products.
+
+3. Allocate marketing budget toward Champion and Loyal Customers.
+
+4. Monitor forecasted sales growth and adjust inventory planning.
+
+5. Expand successful products into additional markets.
+
+---
+
+## 10.Conclusion
+
+The Retail Analytics Project successfully transformed raw retail transaction data into meaningful business insights.
+
+Through data cleaning, customer segmentation, forecasting, churn analysis, inventory management, and dashboard development, the project demonstrated how data analytics can support strategic business decision-making.
+
+The final solution provides an end-to-end retail analytics framework capable of supporting operational and managerial decisions.
