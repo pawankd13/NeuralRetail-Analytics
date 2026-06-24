@@ -40,7 +40,11 @@ NeuralRetail-Analytics/
 
 ├── streamlit_app/
 
+<<<<<<< HEAD
 ├── .gitignore files
+=======
+├── .gitignore
+>>>>>>> 4b845870c93570872ca33e5104aa7cda43fda04b
 
 ├── README.md
 
