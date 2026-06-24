@@ -30,7 +30,7 @@ The project covers:
 
 ## Project Structure
 
-NeuralRetail/
+NeuralRetail-Analytics/
 
 ├── data/
 
@@ -38,13 +38,13 @@ NeuralRetail/
 
 ├── reports/
 
+├── streamlit_app/
+
 ├── .gitignore
 
 ├── README.md
 
-├── requirements.txt
-
-└── streamlit_app
+└── requirements.txt
 
 ---
 
